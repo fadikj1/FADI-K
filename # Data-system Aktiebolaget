@@ -1,0 +1,49 @@
+# Data-system Aktiebolaget
+
+# Versionshantering
+Programmeringen är ett krävande arbete, eftersom man måste kontrollera efter varje steg om man skriva en kod.
+Med andra ord, man behöver ett passande verktyg för detta arbete. Att använda Google drive är inte det bästaval
+för en programmera för två viktiga skäl. 
+Den ena är att man inte kan se ändringar i varje version. Det är därför programmerare borde använda en version 
+Control system, som GitHub och Git Bash. Den andra är, den som sitter i sin kontur, oavsett om det är
+mjukvaruutvecklare, kodtestare eller vem som helst i administration avdelningen behöver ha sin egen bransch för
+att jobba på, utveckla, testa eller läsa bare kanske. 
+
+# Hur man fördelar och verktyg 
+Data-system Aktiebolaget är ett lukande namn för ett företag, man antar att de kanske har ett professionellt 
+arbetssätt. För os som testare, måste utreda eller se hur arbetsprosas fungerar för att hjälpa företaget. 
+”En Excel-fil på chefens dator” enligt Data-system Aktiebolaget, låter lite primitivt. Som står ovanstående, 
+GitHub är mer praktiskt för att bolaget fördelar utvecklingsarbetet. Genom att skapa ett issue och flytta 
+fram i GitHub Gränssnitt, alla ser vem som arbetar med vad. Ett Issue fungerar så här:
+Issus låter dig spåra ditt arbete på GitHub, där utveckling sker. När du nämner ett issue i ett annat issue
+eller pull-request, issue tidslinje återspeglar korsreferensen så att du kan hålla reda på relaterat arbete.
+För att indikera att arbete pågår kan du koppla ett problem till en pull-request. När pull-request slås samman
+stängs det länkade buggen automatiskt.
+
+# Kodtestning
+För testning finns det några approacher man kan välja mellan. Antingen TDD, Test-driven development eller 
+BDD behavior- driven development. I den första skriver man först test sedan skriver man tillräckligt kod.
+men i den andra först måste man skriva ett scenario, Scenariot är läsbar för alla, det vill säga att vem 
+som helst kan läsa koden på själva språket genom att se på scenariot, sedan skriver man test och efter det
+skriver man en tillräcklig kod. Under testprocessen hittar man buggar. ”Pytest- coverage” kan vara ett 
+Kompletterande verktyg vilket är för att mäta kodtäckning för Python-program. Den övervakar koden, noterar
+vilka delar av koden som har körts och analyserar sedan källan för att identifiera kod som kunde ha körts
+men som inte blev det. Täckningsmätning används vanligtvis för att mäta effektiviteten av tester. 
+ Att använda checklistor Hjälper det kanske för administrativa arbetet. med andra ord skicklig stor räcker 
+ det inte för att man driver ett företag, det kan vara ett hjälpmedel men det är inte självsående sätt för
+ hela bolaget. Testning är mer komplicerat än att använda checklistor som man ser.
+ 
+Dokumentation
+Koden ska ju dokumenteras i en fostermiljö, ett program som kan hantera, läsa, köra och testa koden. Naturligtvis
+ska det inte vara Microsoft-Word. Man får skriva i Word man inte köra, testa och läsa koden som Pycharm. I Pycharm
+Kan man skriva koden och använda Python språket. Innan man tänka på en kod måste man sätta ett större mål för sitt 
+jobb. Man börjar med att sätta kodens Syfte, Epic, sedan skriver man kodens krav, eller det som kallas ”requirements”,
+när man skapar en issue skriver man det så kallade ”user ”story för att förklara vad ska man göra och varför ska man
+skriva koden. Under utvecklingen hittar man naturligtvis buggar. Man ska skapa en ny issue, Man ska ju lägga en titel
+som en bugg. I beskrivningen ska man förklara varför och hur buggen har hänt. 
+
+Avslutningsvis vilja och påpeka att om man vill ha en framgångsrik firma måste man hitta bra verktyg för varje här. 
+om man vill nå ett större marknad måste man uppdatera sina tankar. Att använda primitiva verktyg ge det inte Trygghet
+till kunder. Att använda Officepaketet är något bra för din privata data inte för framgångsrik firma. Man borde följa
+flödet och använda verktygen som passar bäst för sådan bransch. GitHub och Git Bash Som byggd på GitHub är något som 
+finns i marknaden och alla stora företag använder. Det är därför rekommenderar jag sådana verktyg.
